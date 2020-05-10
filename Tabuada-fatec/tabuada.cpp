@@ -13,7 +13,7 @@ main(){
     int Numero = 0;
     
         printf("Digite um numero para ver sua tabuada de multiplicacao: ");
-        scanf("%d", &Numero);
+        scanf("%d", &Numero);//Lendo o valor digitado para a multiplicacao;
 
         Multiplicar(Numero);//Função que faz a tabuada do numero digitado;
 
@@ -24,8 +24,8 @@ int Multiplicar (int numero){//Função para fazer a multiplicação e subsequê
    total = 0;
 
         for(i = 0; i <= 10 ; i++){//Responsavel por multiplicar e mostrar a tabuada do numero digitado;
-            total= numero*i;
-            printf("%d X %d = %d\n", numero, i, total);
+            total= numero*i;//Valor que foi digitado está multiplicando o contador do laço, que se inicia em 0;
+            printf("%d X %d = %d\n", numero, i, total);//Responsavel por mostrar a tabuada;
         }
 
 }

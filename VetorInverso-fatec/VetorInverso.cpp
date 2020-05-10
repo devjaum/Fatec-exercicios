@@ -16,7 +16,7 @@ main(){
     for(i = 0; i < 10; i++){//Preenchendo um vetor com valores;
         //vetor[i] = (i*n++); //Teste rapido;
         printf("Digite um valor:\n");
-         scanf("%d", &vetor[i]);
+         scanf("%d", &vetor[i]);//Lendo os valores digitados no vetor;
     }
 
     puts("Valores do vetor:");

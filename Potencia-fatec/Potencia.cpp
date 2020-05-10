@@ -14,10 +14,10 @@ main(){
     Base = Expoente = 0;
 
         printf("Digite o valor da base: ");
-        scanf("%d", &Base);
+        scanf("%d", &Base);//Lendo o valor digitado da base;
 
         printf("Digite o valor do expoente: ");
-        scanf("%d", &Expoente);
+        scanf("%d", &Expoente);//Lendo o valor digitado do expoente;
 
         Potencia(Base, Expoente);//Função para fazer a potencia e imprimir a mesma;
 
