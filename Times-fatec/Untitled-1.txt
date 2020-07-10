@@ -1,0 +1,12 @@
+#include <conio.h>
+#include <stdio.h>
+
+int main (){
+    int contador1, contador2, contador3, i;
+        while(i<5){
+            contador1++;
+            contador2++;
+            contador3++;
+        }
+        printf("%d, %d, %d", contador1, contador2, contador3);
+}
